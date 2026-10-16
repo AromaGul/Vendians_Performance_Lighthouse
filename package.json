@@ -1,0 +1,16 @@
+{
+  "name": "vendians-performance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lighthouse performance audits for every VenDians web screen",
+  "scripts": {
+    "audit": "node run-lighthouse.js",
+    "audit:smoke": "node run-lighthouse.js --only=home,leaves-my --runs=1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "lighthouse": "^13.5.0",
+    "puppeteer-core": "^25.14.0"
+  }
+}
