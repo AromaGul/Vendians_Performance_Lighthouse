@@ -1,0 +1,29 @@
+{
+  "id": "claims-faqs",
+  "module": "Claims",
+  "page": "FAQs",
+  "path": "/claims?tab=faqs",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    2192,
+    2542,
+    2579
+  ],
+  "score": 61,
+  "fcp": 1790.8421499999995,
+  "lcp": 2542.3100999999997,
+  "tbt": 339,
+  "cls": 0.0004167060677698975,
+  "si": 2147.800672246146,
+  "tti": 8490.614582000002,
+  "bytes": 8831656,
+  "requests": 37,
+  "apiCalls": 24,
+  "slowestApiMs": 7066.840000003576,
+  "slowestApi": "https://api.dev.vendians.com/claims/me?statusId=All",
+  "finalUrl": "https://dev.vendians.com/claims?tab=faqs",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

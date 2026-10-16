@@ -1,0 +1,29 @@
+{
+  "id": "admin-pm-dashboard",
+  "module": "Admin Panel",
+  "page": "PM Dashboard",
+  "path": "/pm-admin-dashboard",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1686,
+    3462,
+    3771
+  ],
+  "score": 52,
+  "fcp": 1745.2051999999999,
+  "lcp": 3461.604999999999,
+  "tbt": 85.99999999999977,
+  "cls": 0.3111111111111111,
+  "si": 2869.9546012980663,
+  "tti": 3555.6753999999996,
+  "bytes": 8876169,
+  "requests": 43,
+  "apiCalls": 30,
+  "slowestApiMs": 8134.0259999632835,
+  "slowestApi": "https://api.dev.vendians.com/performance-management/performance-cycle?isActive=&page=0&size=100000",
+  "finalUrl": "https://dev.vendians.com/pm-admin-dashboard",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

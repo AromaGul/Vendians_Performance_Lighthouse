@@ -1,0 +1,29 @@
+{
+  "id": "emp-billable",
+  "module": "Employees",
+  "page": "Billable Resources",
+  "path": "/crmc/employees/billable",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    2159,
+    3644,
+    4266
+  ],
+  "score": 38,
+  "fcp": 2187.3823,
+  "lcp": 3643.7586000000006,
+  "tbt": 831.4999999999991,
+  "cls": 0.018492057485479968,
+  "si": 2929.2070681454807,
+  "tti": 10470.2196655,
+  "bytes": 10375021,
+  "requests": 47,
+  "apiCalls": 34,
+  "slowestApiMs": 14100.856999963522,
+  "slowestApi": "https://api.dev.vendians.com/crmc/data/releaseDate/2026-10-14T19:00:00Z/employee",
+  "finalUrl": "https://dev.vendians.com/crmc/employees/billable",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

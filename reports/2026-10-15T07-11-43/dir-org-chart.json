@@ -1,0 +1,29 @@
+{
+  "id": "dir-org-chart",
+  "module": "Directory",
+  "page": "Organization Chart",
+  "path": "/employee-organization-tree",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1870,
+    2259,
+    2293
+  ],
+  "score": 66,
+  "fcp": 1758.4428999999996,
+  "lcp": 2258.5287999999996,
+  "tbt": 287.5000000000002,
+  "cls": 0.009844602048857367,
+  "si": 2174.537829035496,
+  "tti": 2912.039155,
+  "bytes": 9483568,
+  "requests": 39,
+  "apiCalls": 22,
+  "slowestApiMs": 8640.326000005007,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/employee-organization-tree",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

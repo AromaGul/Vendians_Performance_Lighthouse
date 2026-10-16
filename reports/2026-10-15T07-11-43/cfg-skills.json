@@ -1,0 +1,29 @@
+{
+  "id": "cfg-skills",
+  "module": "Configuration",
+  "page": "Skills",
+  "path": "/skills",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    2778,
+    3074,
+    3094
+  ],
+  "score": 74,
+  "fcp": 1549.8969999999997,
+  "lcp": 3073.7049999999995,
+  "tbt": 40,
+  "cls": 0.03281427808423081,
+  "si": 2072.1814099842222,
+  "tti": 3073.705,
+  "bytes": 8771431,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6675.085000008345,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/skills",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

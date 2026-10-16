@@ -1,0 +1,29 @@
+{
+  "id": "leaves-team-requests",
+  "module": "Leaves",
+  "page": "Team - Leave Requests",
+  "path": "/leaves?tab=requests",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    2122,
+    2587,
+    3168
+  ],
+  "score": 55,
+  "fcp": 1963.67815,
+  "lcp": 2586.6701000000003,
+  "tbt": 365,
+  "cls": 0.005836364281440622,
+  "si": 3299.911245803399,
+  "tti": 5451.391707999999,
+  "bytes": 8790083,
+  "requests": 65,
+  "apiCalls": 52,
+  "slowestApiMs": 9260.418999999762,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/leaves?tab=requests",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

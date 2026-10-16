@@ -1,0 +1,29 @@
+{
+  "id": "rp-deficit",
+  "module": "Resource Planner",
+  "page": "Resource Deficit",
+  "path": "/resourcePlanner/reports/resource-deficit",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    9667,
+    10425,
+    10505
+  ],
+  "score": 29,
+  "fcp": 2181.1083999999996,
+  "lcp": 10425.1058,
+  "tbt": 1231,
+  "cls": 0.03482286314683478,
+  "si": 3931.7156332427153,
+  "tti": 10528.832048999999,
+  "bytes": 8762394,
+  "requests": 37,
+  "apiCalls": 24,
+  "slowestApiMs": 6467.07000002265,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/resourcePlanner/reports/resource-deficit",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

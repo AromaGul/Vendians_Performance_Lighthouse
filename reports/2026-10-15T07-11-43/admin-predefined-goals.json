@@ -1,0 +1,29 @@
+{
+  "id": "admin-predefined-goals",
+  "module": "Admin Panel",
+  "page": "Predefined Goals",
+  "path": "/predefined-goals",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1598,
+    1669,
+    1941
+  ],
+  "score": 83,
+  "fcp": 1580.5147000000009,
+  "lcp": 1668.6157000000007,
+  "tbt": 33,
+  "cls": 0.001734909377462569,
+  "si": 2514.5113699612766,
+  "tti": 2620.726700000001,
+  "bytes": 8772007,
+  "requests": 35,
+  "apiCalls": 22,
+  "slowestApiMs": 6869.438000023365,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/predefined-goals",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

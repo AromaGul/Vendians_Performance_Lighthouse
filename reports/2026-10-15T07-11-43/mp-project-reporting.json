@@ -1,0 +1,29 @@
+{
+  "id": "mp-project-reporting",
+  "module": "Monthly Performance",
+  "page": "Project Reporting",
+  "path": "/pc/project-reviews",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1805,
+    2348,
+    3083
+  ],
+  "score": 69,
+  "fcp": 1685.0769000000003,
+  "lcp": 2347.8209000000006,
+  "tbt": 229,
+  "cls": 0.020129811805008318,
+  "si": 2410.77285595351,
+  "tti": 2936.5106,
+  "bytes": 8770998,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 5819.788999974728,
+  "slowestApi": "https://api.dev.vendians.com/crmc/performance_cycle/summary",
+  "finalUrl": "https://dev.vendians.com/pc/project-reviews",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

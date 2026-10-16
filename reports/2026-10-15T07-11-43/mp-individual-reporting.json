@@ -1,0 +1,29 @@
+{
+  "id": "mp-individual-reporting",
+  "module": "Monthly Performance",
+  "page": "Individual Reporting",
+  "path": "/employee-ratings",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    3611,
+    3861,
+    7015
+  ],
+  "score": 59,
+  "fcp": 1792.6826000000003,
+  "lcp": 3860.5430049999995,
+  "tbt": 241,
+  "cls": 0.017585025692802733,
+  "si": 2553.8929746049994,
+  "tti": 3863.3648645000003,
+  "bytes": 8773151,
+  "requests": 35,
+  "apiCalls": 22,
+  "slowestApiMs": 6779.937000006437,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/employee-ratings",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

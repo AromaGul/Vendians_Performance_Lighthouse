@@ -1,0 +1,18 @@
+1 screens, 13 controls, 1 run(s) each  ->  reports\2026-10-16T10-20-33-interactions
+Signed in as baqir@venturedive.com
+[1/1] perf-my-goals controls 1-13 of 13
+  PASS        tab             Active Goals  481 ms
+  PASS        tab             Completed Goals  456 ms
+  PASS        tab             Rejected/Deleted Goals  465 ms
+  PASS        tab             List view  75 ms
+  PASS        tab             Table view  0 ms
+  PASS        button          Add New Goal  72 ms
+  PASS        button          Edit goal  415 ms
+  PASS        button          View goal  421 ms
+  PASS        pagination      2  868 ms
+  PASS        dropdown        Rows per page  41 ms
+  PASS        pagination      Next  481 ms
+  LINK OK     external-link   Download VenDians on the App Store  590 ms  HTTP 200
+  LINK OK     external-link   Get VenDians on Google Play  582 ms  HTTP 200
+
+Done: 13 results for 13 controls (dropdown options add rows): {"PASS":11,"LINK OK":2}  ->  reports\2026-10-16T10-20-33-interactions

@@ -1,0 +1,29 @@
+{
+  "id": "leaves-my",
+  "module": "Leaves",
+  "page": "My Leaves",
+  "path": "/leaves",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    1751,
+    2615,
+    2899
+  ],
+  "score": 51,
+  "fcp": 1769.0809000000004,
+  "lcp": 2615.3896,
+  "tbt": 355.1146500000002,
+  "cls": 0.15334466457986753,
+  "si": 2885.709588178821,
+  "tti": 3215.6141850000004,
+  "bytes": 8795019,
+  "requests": 55,
+  "apiCalls": 42,
+  "slowestApiMs": 8697.876000016928,
+  "slowestApi": "https://api.dev.vendians.com/leave-types",
+  "finalUrl": "https://dev.vendians.com/leaves",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

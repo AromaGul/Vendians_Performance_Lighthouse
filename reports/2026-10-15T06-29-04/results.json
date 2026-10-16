@@ -1,0 +1,62 @@
+{
+  "baseUrl": "https://dev.vendians.com",
+  "runsPerPage": 1,
+  "passThresholdMs": 3000,
+  "results": [
+    {
+      "id": "login",
+      "module": "Login",
+      "page": "Sign In",
+      "path": "/login",
+      "auth": false,
+      "priority": "High",
+      "runs": 1,
+      "lcpRuns": [
+        1624
+      ],
+      "score": 82,
+      "fcp": 1579.5349999999999,
+      "lcp": 1623.5259999999998,
+      "tbt": 166.54874999999993,
+      "cls": 0.0009991065252604849,
+      "si": 1834.296124295139,
+      "tti": 1948.004375,
+      "bytes": 1836048,
+      "requests": 17,
+      "apiCalls": 0,
+      "slowestApiMs": null,
+      "slowestApi": null,
+      "finalUrl": "https://dev.vendians.com/login",
+      "error": null,
+      "redirectedTo": null,
+      "status": "PASS"
+    },
+    {
+      "id": "home",
+      "module": "Home",
+      "page": "Home dashboard",
+      "path": "/",
+      "priority": "High",
+      "runs": 1,
+      "lcpRuns": [
+        4027
+      ],
+      "score": 51,
+      "fcp": 1818.9936499999994,
+      "lcp": 4027.3484,
+      "tbt": 339.5,
+      "cls": 0.011382111242448123,
+      "si": 2935.9533323258042,
+      "tti": 4539.5201750000015,
+      "bytes": 10432580,
+      "requests": 105,
+      "apiCalls": 43,
+      "slowestApiMs": 9564.918999999762,
+      "slowestApi": "https://api.dev.vendians.com/employees/birthday",
+      "finalUrl": "https://dev.vendians.com/",
+      "error": null,
+      "redirectedTo": null,
+      "status": "FAIL"
+    }
+  ]
+}

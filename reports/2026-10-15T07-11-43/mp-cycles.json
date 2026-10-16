@@ -1,0 +1,29 @@
+{
+  "id": "mp-cycles",
+  "module": "Monthly Performance",
+  "page": "View Cycles",
+  "path": "/pc/performance-cycles",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1805,
+    2594,
+    2976
+  ],
+  "score": 60,
+  "fcp": 1697.7063999999996,
+  "lcp": 2594.2079999999996,
+  "tbt": 303.5,
+  "cls": 0.01797907605324986,
+  "si": 3081.520866095728,
+  "tti": 8931.7743545,
+  "bytes": 8770876,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6370.102000027895,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/pc/performance-cycles",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

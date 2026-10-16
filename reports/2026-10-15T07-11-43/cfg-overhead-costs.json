@@ -1,0 +1,29 @@
+{
+  "id": "cfg-overhead-costs",
+  "module": "Configuration",
+  "page": "Overhead Costs",
+  "path": "/overhead-costs",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1653,
+    1671,
+    2317
+  ],
+  "score": 81,
+  "fcp": 1578.6606,
+  "lcp": 1671.1606,
+  "tbt": 13.5,
+  "cls": 0.032861955571607857,
+  "si": 3084.898733388144,
+  "tti": 3428.6606,
+  "bytes": 8755672,
+  "requests": 35,
+  "apiCalls": 22,
+  "slowestApiMs": 7011.311999976635,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/overhead-costs",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

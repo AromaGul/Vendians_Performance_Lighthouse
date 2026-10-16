@@ -1,0 +1,29 @@
+{
+  "id": "admin-biannual-competencies",
+  "module": "Admin Panel",
+  "page": "Bi-Annual Competencies",
+  "path": "/bi-annual-competencies",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    8647,
+    10049,
+    10298
+  ],
+  "score": 66,
+  "fcp": 1594.0016999999996,
+  "lcp": 10049.220799999997,
+  "tbt": 35,
+  "cls": 0.00009510973936899863,
+  "si": 2021.9636527650418,
+  "tti": 10049.220799999997,
+  "bytes": 8780516,
+  "requests": 37,
+  "apiCalls": 24,
+  "slowestApiMs": 6687.2750000059605,
+  "slowestApi": "https://api.dev.vendians.com/performance-management/rating-attributes",
+  "finalUrl": "https://dev.vendians.com/bi-annual-competencies",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cfg-companies",
+  "module": "Configuration",
+  "page": "Companies",
+  "path": "/companies",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1682,
+    2088,
+    2773
+  ],
+  "score": 82,
+  "fcp": 1599.1029,
+  "lcp": 2088.0000999999997,
+  "tbt": 87,
+  "cls": 0.03270409131205674,
+  "si": 1756.4836602021917,
+  "tti": 4142.6849,
+  "bytes": 8754400,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6127.598999977112,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/companies",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

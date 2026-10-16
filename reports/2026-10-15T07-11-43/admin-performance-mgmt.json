@@ -1,0 +1,29 @@
+{
+  "id": "admin-performance-mgmt",
+  "module": "Admin Panel",
+  "page": "Performance Management",
+  "path": "/performance-management",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1588,
+    1942,
+    2474
+  ],
+  "score": 81,
+  "fcp": 1724.37205,
+  "lcp": 1941.9622999999997,
+  "tbt": 39,
+  "cls": 0.03306275720164609,
+  "si": 2241.5793530211913,
+  "tti": 3025.7817999999997,
+  "bytes": 8754204,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6075.7750000059605,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/performance-management",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

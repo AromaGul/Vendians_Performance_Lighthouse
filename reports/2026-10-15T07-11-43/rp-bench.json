@@ -1,0 +1,29 @@
+{
+  "id": "rp-bench",
+  "module": "Resource Planner",
+  "page": "Bench Summary",
+  "path": "/resourcePlanner/reports/bench-summary",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    9884,
+    10500,
+    10830
+  ],
+  "score": 15,
+  "fcp": 2220.6590999999994,
+  "lcp": 10499.563899999997,
+  "tbt": 735,
+  "cls": 0.4070921985815603,
+  "si": 2827.152875353117,
+  "tti": 10499.563899999997,
+  "bytes": 9311878,
+  "requests": 43,
+  "apiCalls": 30,
+  "slowestApiMs": 9469.74399998784,
+  "slowestApi": "https://api.dev.vendians.com/resourcePlanner/reports/bench/resources",
+  "finalUrl": "https://dev.vendians.com/resourcePlanner/reports/bench-summary",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

@@ -1,0 +1,11 @@
+module,page,section,kind,label,status,responseMs,settled,inp,tbt,cls,apiCalls,slowestApiMs,slowestApi,navigatedTo,blockedWrites,httpStatus,finalUrl,note,responseRuns,error
+Performance,My Performance Review,Performance Review,tab,List view,PASS,63,true,92.336,0,0.006,0,,,,,,,,63,
+Performance,My Performance Review,Performance Review,tab,Table view,PASS,0,true,41.398,0,0,0,,,,,,,,0,
+Performance,My Performance Review,Performance Review,button,Columns (8/8),PASS,62,true,132.049,0,0,0,,,,,,,,62,
+Performance,My Performance Review,Performance Review,button,Self view,PASS,1083,true,97.073,7.992,0,8,763.22,https://api.dev.vendians.com/employees/me/performance-cycle/333/evaluation?reviewType=self,/my-performance/reviews/333,,,,,1083,
+Performance,My Performance Review,Performance Review,button,Manager view,PASS,1280,true,118.305,28.325,0,8,969.798,https://api.dev.vendians.com/employees/me/performance-cycle/284/evaluation?reviewType=manager,/my-performance/reviews/284,,,,,1280,
+Performance,My Performance Review,Performance Review,pagination,2,PASS,506,true,105.418,16.524,0,2,325.07,"https://api.dev.vendians.com/employees/me/performanceCycles?status=Pending%20Approval,Approved&page=1&size=10",,,,,,506,
+Performance,My Performance Review,Performance Review,dropdown,Rows per page,PASS,35,true,43.779,0,0,0,,,,,,,,35,
+Performance,My Performance Review,Performance Review,pagination,Next,PASS,524,true,,,,2,337.209,"https://api.dev.vendians.com/employees/me/performanceCycles?status=Pending%20Approval,Approved&page=1&size=10",,,,,,524,
+Performance,My Performance Review,Performance Review,external-link,Download VenDians on the App Store,LINK OK,920,true,,,,,,,,,200,https://apps.apple.com/pk/app/vendians/id1605923635,,920,
+Performance,My Performance Review,Performance Review,external-link,Get VenDians on Google Play,LINK OK,4114,true,,,,,,,,,200,https://play.google.com/store/apps/details?id=com.venturedive.vendians,,4114,

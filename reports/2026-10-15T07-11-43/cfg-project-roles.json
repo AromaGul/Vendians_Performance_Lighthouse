@@ -1,0 +1,29 @@
+{
+  "id": "cfg-project-roles",
+  "module": "Configuration",
+  "page": "Project Roles",
+  "path": "/project-roles",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    2884,
+    3213,
+    3424
+  ],
+  "score": 73,
+  "fcp": 1584.2705,
+  "lcp": 3213.2065000000007,
+  "tbt": 65,
+  "cls": 0.03265890984808686,
+  "si": 1987.7578368502018,
+  "tti": 3905.697075000001,
+  "bytes": 8757417,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6480.33599999547,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/project-roles",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

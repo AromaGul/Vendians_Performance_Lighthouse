@@ -1,0 +1,29 @@
+{
+  "id": "leaves-company-quotas",
+  "module": "Leaves",
+  "page": "Company - Leave Quotas",
+  "path": "/leaves?view=company&tab=leave-quotas",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1767,
+    2836,
+    2995
+  ],
+  "score": 59,
+  "fcp": 1816.1517499999995,
+  "lcp": 2836.374,
+  "tbt": 323,
+  "cls": 0.03541174211248285,
+  "si": 2414.0702601414537,
+  "tti": 3366.1364869999998,
+  "bytes": 8788012,
+  "requests": 53,
+  "apiCalls": 40,
+  "slowestApiMs": 8795.472999989986,
+  "slowestApi": "https://api.dev.vendians.com/leave-types",
+  "finalUrl": "https://dev.vendians.com/leaves?view=company&tab=leave-quotas",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

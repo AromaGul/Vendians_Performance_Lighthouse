@@ -1,0 +1,41 @@
+1 screens, 30 controls, 1 run(s) each  ->  reports\2026-10-16T08-22-08-interactions
+Signed in as baqir@venturedive.com
+[1/1] home controls 1-15 of 30
+  FAIL        section-load    Birthdays section loads  10580 ms
+  PASS        button          Search pages and people  0 ms
+  PASS        dropdown        59  0 ms
+  PASS        dropdown        Account menu for Muhammad Arqum c MutationApplican  0 ms
+  FAIL        button          Request leave  5542 ms
+  FAIL        link            Leave Balance 2 2 annual · 0 sick  4948 ms
+  PASS        link            Active Goals 10 71 of 103 completed  861 ms
+  PASS        link            Pending Claims 7 1 of 8 closed  1133 ms
+  FAIL        link            Pending Leaves 1 awaiting approval  7138 ms
+  PASS        button          All news  1559 ms
+  PASS        button          21 Feb 2020 Where can I get some? WHY DO WE USE IT  0 ms
+  PASS        tab             Featured resource  0 ms
+  PASS        tab             From YouTube (50)  152 ms
+  PASS        button          Play VentureDive Core Values  145 ms
+  PASS        dropdown        All  75 ms
+  PASS        dropdown-option All → All  99 ms
+  PASS        dropdown-option All → Karachi  73 ms
+  PASS        dropdown-option All → Lahore  73 ms
+  PASS        dropdown-option All → Islamabad  105 ms
+  ERROR       dropdown-option All → Remote
+[1/1] home controls 16-30 of 30
+  LINK OK     external-link   HR Portal  986 ms  HTTP 200
+  LINK OK     external-link   CRMC Portal  2377 ms  HTTP 200
+  LINK OK     external-link   Our Values  408 ms  HTTP 200
+  LINK OK     external-link   Company Policies  429 ms  HTTP 200
+  LINK OK     external-link   Career Paths  615 ms  HTTP 200
+  LINK OK     external-link   Marketing Wiki  1227 ms  HTTP 200
+  LINK OK     external-link   Brand Guidelines  1033 ms  HTTP 200
+  LINK OK     external-link   Corporate Decks  709 ms  HTTP 200
+  LINK OK     external-link   Project Management Office  1044 ms  HTTP 200
+  LINK OK     external-link   SOP's & Information  1029 ms  HTTP 200
+  LINK OK     external-link   QA Hub  745 ms  HTTP 200
+  LINK OK     external-link   Learning  666 ms  HTTP 200
+  LINK OK     external-link   Repository  660 ms  HTTP 200
+  LINK OK     external-link   Download VenDians on the App Store  1070 ms  HTTP 200
+  BROKEN LINK external-link   Get VenDians on Google Play  10677 ms
+
+Done: 35 results for 30 controls (dropdown options add rows): {"FAIL":4,"PASS":15,"ERROR":1,"LINK OK":14,"BROKEN LINK":1}  ->  reports\2026-10-16T08-22-08-interactions

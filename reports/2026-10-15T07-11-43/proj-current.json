@@ -1,0 +1,29 @@
+{
+  "id": "proj-current",
+  "module": "Projects",
+  "page": "Current Projects",
+  "path": "/crmc/projects/current",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    3834,
+    4401,
+    4516
+  ],
+  "score": 32,
+  "fcp": 2093.397324999999,
+  "lcp": 4400.74115,
+  "tbt": 1300.5,
+  "cls": 0.011908109622624986,
+  "si": 4025.3867011862667,
+  "tti": 9466.49393,
+  "bytes": 9607349,
+  "requests": 39,
+  "apiCalls": 26,
+  "slowestApiMs": 8871.688000023365,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/crmc/projects/current",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

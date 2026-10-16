@@ -1,0 +1,29 @@
+{
+  "id": "vsop-cycles",
+  "module": "VSOP",
+  "page": "Quarterly Cycles",
+  "path": "/grant-cycles",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1627,
+    1637,
+    1674
+  ],
+  "score": 83,
+  "fcp": 1545.067899999999,
+  "lcp": 1636.6245799999992,
+  "tbt": 38,
+  "cls": 0.009586243378425705,
+  "si": 2721.4808896026216,
+  "tti": 2308.549679999999,
+  "bytes": 8755314,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 8208.163000017405,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/grant-cycles",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

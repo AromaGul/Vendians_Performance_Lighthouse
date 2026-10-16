@@ -1,0 +1,29 @@
+{
+  "id": "rp-transient",
+  "module": "Resource Planner",
+  "page": "Transient Resources",
+  "path": "/resourcePlanner/transientResource",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1936,
+    2142,
+    3944
+  ],
+  "score": 50,
+  "fcp": 1920.0859999999998,
+  "lcp": 2142.1219999999994,
+  "tbt": 580.9999999999995,
+  "cls": 0.027255504562136997,
+  "si": 4178.482870081259,
+  "tti": 11696.243962499997,
+  "bytes": 11720777,
+  "requests": 49,
+  "apiCalls": 36,
+  "slowestApiMs": 12139.129000037909,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/resourcePlanner/transientResource",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

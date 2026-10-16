@@ -1,0 +1,29 @@
+{
+  "id": "leaves-team-calendar",
+  "module": "Leaves",
+  "page": "Team - Leave Calendar",
+  "path": "/leaves?tab=calendar",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    1761,
+    3337,
+    3454
+  ],
+  "score": 48,
+  "fcp": 2203.1195000000007,
+  "lcp": 3336.7972000000004,
+  "tbt": 468.0000000000009,
+  "cls": 0.014863357721886582,
+  "si": 2556.842410251108,
+  "tti": 9544.690755,
+  "bytes": 8809492,
+  "requests": 63,
+  "apiCalls": 50,
+  "slowestApiMs": 9825.820999979973,
+  "slowestApi": "https://api.dev.vendians.com/leave-types",
+  "finalUrl": "https://dev.vendians.com/leaves?tab=calendar",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

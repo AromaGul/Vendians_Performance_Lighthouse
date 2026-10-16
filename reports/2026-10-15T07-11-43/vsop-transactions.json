@@ -1,0 +1,29 @@
+{
+  "id": "vsop-transactions",
+  "module": "VSOP",
+  "page": "Exercise & Buyback",
+  "path": "/vsop-transactions",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    6309,
+    8921,
+    9119
+  ],
+  "score": 64,
+  "fcp": 1555.274,
+  "lcp": 8920.814,
+  "tbt": 48,
+  "cls": 0.012301852909844436,
+  "si": 2721.0361046971684,
+  "tti": 8920.814,
+  "bytes": 8754253,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6780.032999992371,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/vsop-transactions",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

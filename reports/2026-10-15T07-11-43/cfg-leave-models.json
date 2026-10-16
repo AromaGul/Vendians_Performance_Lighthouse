@@ -1,0 +1,29 @@
+{
+  "id": "cfg-leave-models",
+  "module": "Configuration",
+  "page": "Leave Models",
+  "path": "/leave-models",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    4062,
+    8232,
+    8830
+  ],
+  "score": 67,
+  "fcp": 1584.6063999999997,
+  "lcp": 8231.566599999998,
+  "tbt": 51,
+  "cls": 0.03265328028777398,
+  "si": 1790.723286110891,
+  "tti": 8231.566599999998,
+  "bytes": 8754620,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6585.407999992371,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/leave-models",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

@@ -1,9 +1,4 @@
 node_modules/
-.env
+# Live admin login token - never commit
 .session.json
-reports/
-*.log
-# Discovered controls contain real names from dev screens; keep local only
-interactions.json
-interactions.scan-*.json
-discovered-controls.md
+.claude/settings.local.json

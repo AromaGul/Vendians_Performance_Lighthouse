@@ -1,0 +1,29 @@
+{
+  "id": "profile",
+  "module": "Profile",
+  "page": "My Profile",
+  "path": "/profile",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    3876,
+    4074,
+    5729
+  ],
+  "score": 35,
+  "fcp": 2036.607,
+  "lcp": 4073.8660000000004,
+  "tbt": 978.5,
+  "cls": 0.001226253940110323,
+  "si": 3311.781280857434,
+  "tti": 10693.479489999998,
+  "bytes": 12311789,
+  "requests": 64,
+  "apiCalls": 50,
+  "slowestApiMs": 10638.490000009537,
+  "slowestApi": "https://api.dev.vendians.com/employees/me/info",
+  "finalUrl": "https://dev.vendians.com/profile",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

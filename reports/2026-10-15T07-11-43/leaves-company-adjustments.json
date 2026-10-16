@@ -1,0 +1,28 @@
+{
+  "id": "leaves-company-adjustments",
+  "module": "Leaves",
+  "page": "Company - Leave Adjustments",
+  "path": "/leaves?view=company&tab=adjustments",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1820,
+    2991
+  ],
+  "score": 62,
+  "fcp": 1759.462,
+  "lcp": 1819.992,
+  "tbt": 369.5,
+  "cls": 0.03566518310568251,
+  "si": 3151.791245628735,
+  "tti": 3711.280950000001,
+  "bytes": 8787156,
+  "requests": 51,
+  "apiCalls": 38,
+  "slowestApiMs": 10258.770999968052,
+  "slowestApi": "https://api.dev.vendians.com/leave-types",
+  "finalUrl": "https://dev.vendians.com/leaves?view=company&tab=adjustments",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

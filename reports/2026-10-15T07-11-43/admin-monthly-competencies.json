@@ -1,0 +1,29 @@
+{
+  "id": "admin-monthly-competencies",
+  "module": "Admin Panel",
+  "page": "Monthly Competencies",
+  "path": "/monthly-competencies",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1605,
+    1658,
+    1683
+  ],
+  "score": 85,
+  "fcp": 1608.9485,
+  "lcp": 1657.9716,
+  "tbt": 60,
+  "cls": 0.00009412890727607041,
+  "si": 1970.691375413019,
+  "tti": 3437.0118,
+  "bytes": 8765834,
+  "requests": 35,
+  "apiCalls": 22,
+  "slowestApiMs": 6312.356000006199,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/monthly-competencies",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

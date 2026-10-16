@@ -1,0 +1,25 @@
+1 screens, 19 controls, 1 run(s) each  ->  reports\2026-10-16T11-08-58-interactions
+Signed in as baqir@venturedive.com
+[1/1] perf-team controls 1-15 of 19
+  PASS        tab             Goals Dashboard  0 ms
+  FAIL        tab             Forms Dashboard  3039 ms
+  PASS        tab             Goals Approval Status  2432 ms
+  PASS        tab             Self Evaluation Status  2292 ms
+  PASS        tab             LM Evaluation Status  2585 ms
+  PASS        tab             PM Forms Approval Status  2581 ms
+  PASS        tab             Calibration  2475 ms
+  PASS        tab             All  2163 ms
+  PASS        tab             Direct Reporting  1423 ms
+  PASS        tab             Indirect Reporting  2364 ms
+  PASS        checkbox        Select all rows  96 ms
+  PASS        filter          Filter Employee ID  62 ms
+  PASS        button          View goal  1005 ms
+  PASS        pagination      2  1584 ms
+  PASS        dropdown        Rows per page  65 ms
+[1/1] perf-team controls 16-19 of 19
+  PASS        pagination      Next  1453 ms
+  PASS        button          Scroll tabs right  0 ms
+  LINK OK     external-link   Download VenDians on the App Store  871 ms  HTTP 200
+  LINK OK     external-link   Get VenDians on Google Play  965 ms  HTTP 200
+
+Done: 19 results for 19 controls (dropdown options add rows): {"PASS":16,"FAIL":1,"LINK OK":2}  ->  reports\2026-10-16T11-08-58-interactions

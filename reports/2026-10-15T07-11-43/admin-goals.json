@@ -1,0 +1,29 @@
+{
+  "id": "admin-goals",
+  "module": "Admin Panel",
+  "page": "All Goals",
+  "path": "/goals",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    8998,
+    10321,
+    11613
+  ],
+  "score": 61,
+  "fcp": 1729.7252499999993,
+  "lcp": 10320.713699999998,
+  "tbt": 47,
+  "cls": 0.01088733619356157,
+  "si": 3184.241735015673,
+  "tti": 10320.7137,
+  "bytes": 10763446,
+  "requests": 43,
+  "apiCalls": 30,
+  "slowestApiMs": 12659.683000028133,
+  "slowestApi": "https://api.dev.vendians.com/employees/all",
+  "finalUrl": "https://dev.vendians.com/goals",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

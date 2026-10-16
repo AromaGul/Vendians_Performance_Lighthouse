@@ -1,0 +1,29 @@
+{
+  "id": "admin-goal-categories",
+  "module": "Admin Panel",
+  "page": "Goal Categories",
+  "path": "/goals-categories",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1592,
+    1631,
+    1669
+  ],
+  "score": 87,
+  "fcp": 1591.2924,
+  "lcp": 1631.2924,
+  "tbt": 32,
+  "cls": 0.00005956206403408925,
+  "si": 1651.7716975780504,
+  "tti": 3122.9386000000004,
+  "bytes": 8755841,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6368.989000022411,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/goals-categories",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

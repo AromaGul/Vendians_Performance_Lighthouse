@@ -1,0 +1,29 @@
+{
+  "id": "emp-all",
+  "module": "Employees",
+  "page": "All Employees",
+  "path": "/employees/all",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    9326,
+    10002,
+    10166
+  ],
+  "score": 37,
+  "fcp": 2176.1530999999995,
+  "lcp": 10002.196600000001,
+  "tbt": 540,
+  "cls": 0.016408664931923653,
+  "si": 3125.7049027016938,
+  "tti": 10750.364284,
+  "bytes": 10790098,
+  "requests": 49,
+  "apiCalls": 36,
+  "slowestApiMs": 12675.374000012875,
+  "slowestApi": "https://api.dev.vendians.com/employees/all?page=0&size=1000000",
+  "finalUrl": "https://dev.vendians.com/employees/all",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

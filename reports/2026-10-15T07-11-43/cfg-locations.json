@@ -1,0 +1,29 @@
+{
+  "id": "cfg-locations",
+  "module": "Configuration",
+  "page": "Locations",
+  "path": "/locations",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    2819,
+    2912,
+    2936
+  ],
+  "score": 76,
+  "fcp": 1591.6438000000007,
+  "lcp": 2911.855600000001,
+  "tbt": 97.5,
+  "cls": 0.03266390950150308,
+  "si": 1591.6438000000007,
+  "tti": 3441.230700000001,
+  "bytes": 8754640,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 5947.214999973774,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/locations",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

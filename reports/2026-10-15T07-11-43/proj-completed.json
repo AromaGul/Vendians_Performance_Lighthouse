@@ -1,0 +1,29 @@
+{
+  "id": "proj-completed",
+  "module": "Projects",
+  "page": "Completed Projects",
+  "path": "/crmc/projects/completed",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    2071,
+    2484,
+    2680
+  ],
+  "score": 42,
+  "fcp": 2020.7854249999998,
+  "lcp": 2484.2066,
+  "tbt": 1206.09795,
+  "cls": 0.01191357099859907,
+  "si": 3660.384795460527,
+  "tti": 8402.204590500001,
+  "bytes": 9607226,
+  "requests": 39,
+  "apiCalls": 26,
+  "slowestApiMs": 7736.68900001049,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/crmc/projects/completed",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

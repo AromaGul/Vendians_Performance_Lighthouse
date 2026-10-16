@@ -1,0 +1,29 @@
+{
+  "id": "home",
+  "module": "Home",
+  "page": "Home dashboard",
+  "path": "/",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    4305,
+    4717,
+    4935
+  ],
+  "score": 46,
+  "fcp": 1793.4131200000008,
+  "lcp": 4716.787040000002,
+  "tbt": 399,
+  "cls": 0.01128078670869451,
+  "si": 3235.931050606059,
+  "tti": 5278.3298810000015,
+  "bytes": 11441261,
+  "requests": 154,
+  "apiCalls": 43,
+  "slowestApiMs": 10835.825999975204,
+  "slowestApi": "https://api.dev.vendians.com/employees/birthday",
+  "finalUrl": "https://dev.vendians.com/",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

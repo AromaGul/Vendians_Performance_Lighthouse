@@ -1,0 +1,29 @@
+{
+  "id": "claims-my",
+  "module": "Claims",
+  "page": "My Claims",
+  "path": "/claims?tab=my",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    1795,
+    3200,
+    4254
+  ],
+  "score": 50,
+  "fcp": 2219.5257,
+  "lcp": 3199.801,
+  "tbt": 393.5,
+  "cls": 0.06920609053497942,
+  "si": 2581.313612261448,
+  "tti": 8218.8601835,
+  "bytes": 8831590,
+  "requests": 37,
+  "apiCalls": 24,
+  "slowestApiMs": 7018.8669999837875,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/claims?tab=my",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

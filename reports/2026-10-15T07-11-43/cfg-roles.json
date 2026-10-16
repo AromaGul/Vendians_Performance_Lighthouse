@@ -1,0 +1,29 @@
+{
+  "id": "cfg-roles",
+  "module": "Configuration",
+  "page": "Roles",
+  "path": "/roles",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    2824,
+    2955,
+    3655
+  ],
+  "score": 75,
+  "fcp": 1561.156399999999,
+  "lcp": 2954.618879999999,
+  "tbt": 39,
+  "cls": 0.03265542841403263,
+  "si": 2008.629456870312,
+  "tti": 2954.618879999999,
+  "bytes": 8810907,
+  "requests": 37,
+  "apiCalls": 24,
+  "slowestApiMs": 6613.317000001669,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/roles",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

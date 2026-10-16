@@ -1,0 +1,29 @@
+{
+  "id": "cfg-industries",
+  "module": "Configuration",
+  "page": "Industries",
+  "path": "/industries",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    3604,
+    6266,
+    9491
+  ],
+  "score": 67,
+  "fcp": 1592.2390000000005,
+  "lcp": 6265.961500000001,
+  "tbt": 66,
+  "cls": 0.03276874290415317,
+  "si": 1871.248793544617,
+  "tti": 6265.961500000001,
+  "bytes": 8755231,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 5667.146000027657,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/industries",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

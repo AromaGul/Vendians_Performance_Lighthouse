@@ -1,0 +1,29 @@
+{
+  "id": "perf-my-reviews",
+  "module": "Performance",
+  "page": "My Performance Review",
+  "path": "/my-performance/reviews",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    2082,
+    3046,
+    3240
+  ],
+  "score": 60,
+  "fcp": 2191.8127000000004,
+  "lcp": 3045.834700000001,
+  "tbt": 231.5,
+  "cls": 0.014216623252488111,
+  "si": 2791.775607776657,
+  "tti": 4003.0904000000005,
+  "bytes": 8756452,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 7006.766000002623,
+  "slowestApi": "https://api.dev.vendians.com/employees/me/performanceCycles?status=Pending%20Approval,Approved&page=0&size=10",
+  "finalUrl": "https://dev.vendians.com/my-performance/reviews",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

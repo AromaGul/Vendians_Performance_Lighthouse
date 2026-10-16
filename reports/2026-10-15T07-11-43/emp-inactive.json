@@ -1,0 +1,29 @@
+{
+  "id": "emp-inactive",
+  "module": "Employees",
+  "page": "Inactive Employees",
+  "path": "/crmc/employees/inactive",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1837,
+    2479,
+    3784
+  ],
+  "score": 45,
+  "fcp": 1929.5186249999995,
+  "lcp": 2478.958749999999,
+  "tbt": 712,
+  "cls": 0.016322007066660833,
+  "si": 3823.7583828295787,
+  "tti": 8381.340175000001,
+  "bytes": 8793836,
+  "requests": 45,
+  "apiCalls": 32,
+  "slowestApiMs": 6910.398000001907,
+  "slowestApi": "https://api.dev.vendians.com/employees?page=0&size=10&isActive=false",
+  "finalUrl": "https://dev.vendians.com/crmc/employees/inactive",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cfg-employment-types",
+  "module": "Configuration",
+  "page": "Employment Types",
+  "path": "/employment-types",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1646,
+    1649,
+    2646
+  ],
+  "score": 84,
+  "fcp": 1560.684,
+  "lcp": 1649.1839999999997,
+  "tbt": 49,
+  "cls": 0.03294484563340922,
+  "si": 2335.912998305684,
+  "tti": 3047.684,
+  "bytes": 8754491,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 7142.28900000453,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/employment-types",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

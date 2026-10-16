@@ -1,0 +1,29 @@
+{
+  "id": "dir-employees",
+  "module": "Directory",
+  "page": "Employee Directory",
+  "path": "/employee-directory",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    3563,
+    4243,
+    4292
+  ],
+  "score": 34,
+  "fcp": 1747.6418500000002,
+  "lcp": 4242.5007000000005,
+  "tbt": 329.5,
+  "cls": 0.3503173732597846,
+  "si": 2930.6335660248487,
+  "tti": 9390.778004,
+  "bytes": 9508185,
+  "requests": 46,
+  "apiCalls": 20,
+  "slowestApiMs": 7966.209000021219,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/employee-directory",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

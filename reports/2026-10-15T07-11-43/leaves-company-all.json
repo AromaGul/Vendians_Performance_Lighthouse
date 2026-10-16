@@ -1,0 +1,29 @@
+{
+  "id": "leaves-company-all",
+  "module": "Leaves",
+  "page": "Company - All Leaves",
+  "path": "/leaves?view=company&tab=all-leaves",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1825,
+    3648,
+    3822
+  ],
+  "score": 47,
+  "fcp": 2196.9391000000005,
+  "lcp": 3648.2975000000006,
+  "tbt": 443,
+  "cls": 0.003580640194962496,
+  "si": 2772.678913514663,
+  "tti": 8869.510893500003,
+  "bytes": 8799477,
+  "requests": 53,
+  "apiCalls": 40,
+  "slowestApiMs": 9709.219000011683,
+  "slowestApi": "https://api.dev.vendians.com/leave-types",
+  "finalUrl": "https://dev.vendians.com/leaves?view=company&tab=all-leaves",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

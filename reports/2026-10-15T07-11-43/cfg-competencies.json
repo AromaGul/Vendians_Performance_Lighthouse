@@ -1,0 +1,29 @@
+{
+  "id": "cfg-competencies",
+  "module": "Configuration",
+  "page": "Competencies",
+  "path": "/competencies",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    2979,
+    3145,
+    3154
+  ],
+  "score": 65,
+  "fcp": 1609.8200000000002,
+  "lcp": 3145.0829999999996,
+  "tbt": 217,
+  "cls": 0.032724860436184805,
+  "si": 2317.2519126207408,
+  "tti": 3538.9940000000006,
+  "bytes": 8756215,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6520.75,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/competencies",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

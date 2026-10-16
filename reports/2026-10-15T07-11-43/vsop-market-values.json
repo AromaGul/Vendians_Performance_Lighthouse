@@ -1,0 +1,29 @@
+{
+  "id": "vsop-market-values",
+  "module": "VSOP",
+  "page": "Market Values",
+  "path": "/market-values",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1609,
+    1638,
+    1922
+  ],
+  "score": 83,
+  "fcp": 1598.0791999999997,
+  "lcp": 1638.1684,
+  "tbt": 40.5,
+  "cls": 0.009605832831698916,
+  "si": 2473.7069410272793,
+  "tti": 3122.7288600000006,
+  "bytes": 8754917,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6686.692000031471,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/market-values",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

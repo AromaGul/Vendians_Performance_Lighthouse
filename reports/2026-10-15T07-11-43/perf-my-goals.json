@@ -1,0 +1,29 @@
+{
+  "id": "perf-my-goals",
+  "module": "Performance",
+  "page": "My Goals",
+  "path": "/my-performance/goals",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    3607,
+    3632,
+    3766
+  ],
+  "score": 53,
+  "fcp": 2235.0697258761265,
+  "lcp": 3631.6489000000006,
+  "tbt": 309,
+  "cls": 0.013462982745600215,
+  "si": 2648.241223991243,
+  "tti": 8996.689787500001,
+  "bytes": 8755742,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 6789.754000008106,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/my-performance/goals",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

@@ -1,0 +1,15 @@
+1 screens, 10 controls, 1 run(s) each  ->  reports\2026-10-16T10-38-11-interactions
+Signed in as baqir@venturedive.com
+[1/1] perf-my-reviews controls 1-10 of 10
+  PASS        tab             List view  63 ms
+  PASS        tab             Table view  0 ms
+  PASS        button          Columns (8/8)  62 ms
+  PASS        button          Self view  1083 ms
+  PASS        button          Manager view  1280 ms
+  PASS        pagination      2  506 ms
+  PASS        dropdown        Rows per page  35 ms
+  PASS        pagination      Next  524 ms
+  LINK OK     external-link   Download VenDians on the App Store  920 ms  HTTP 200
+  LINK OK     external-link   Get VenDians on Google Play  4114 ms  HTTP 200
+
+Done: 10 results for 10 controls (dropdown options add rows): {"PASS":8,"LINK OK":2}  ->  reports\2026-10-16T10-38-11-interactions

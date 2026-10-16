@@ -1,0 +1,29 @@
+{
+  "id": "cfg-customers",
+  "module": "Configuration",
+  "page": "Customers",
+  "path": "/customers",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    1625,
+    1628,
+    1674
+  ],
+  "score": 84,
+  "fcp": 1580.3185999999992,
+  "lcp": 1627.874999999999,
+  "tbt": 62,
+  "cls": 0.03263722964641158,
+  "si": 2238.44815206309,
+  "tti": 3611.695569999999,
+  "bytes": 8818667,
+  "requests": 35,
+  "apiCalls": 22,
+  "slowestApiMs": 7099.216000020504,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/customers",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

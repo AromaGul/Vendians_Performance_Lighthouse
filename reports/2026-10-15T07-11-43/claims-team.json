@@ -1,0 +1,29 @@
+{
+  "id": "claims-team",
+  "module": "Claims",
+  "page": "Team Claims",
+  "path": "/claims?tab=team",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    2144,
+    3739,
+    3913
+  ],
+  "score": 39,
+  "fcp": 2164.6325999999995,
+  "lcp": 3739.0844999999986,
+  "tbt": 472.5,
+  "cls": 0.1347610425240055,
+  "si": 3216.1598278549895,
+  "tti": 9745.768601999998,
+  "bytes": 9472359,
+  "requests": 37,
+  "apiCalls": 24,
+  "slowestApiMs": 9735.53100001812,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/claims?tab=team",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "emp-non-billable",
+  "module": "Employees",
+  "page": "Non-Billable Resources",
+  "path": "/crmc/employees/non-billable",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    7461,
+    9610,
+    10957
+  ],
+  "score": 37,
+  "fcp": 2185.2808,
+  "lcp": 9610.248999999998,
+  "tbt": 523,
+  "cls": 0.03594646265650994,
+  "si": 3553.789051211664,
+  "tti": 10025.370332999999,
+  "bytes": 8774633,
+  "requests": 43,
+  "apiCalls": 30,
+  "slowestApiMs": 8012.243999958038,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/crmc/employees/non-billable",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

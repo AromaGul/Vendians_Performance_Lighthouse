@@ -1,0 +1,313 @@
+[1/62] login /login
+  run 1/3: LCP 1569 ms, score 83
+  run 2/3: LCP 1889 ms, score 83
+  run 3/3: LCP 1610 ms, score 84
+  => PASS (median LCP 1610 ms)
+Signed in as baqir@venturedive.com
+[2/62] home /
+  run 1/3: LCP 4717 ms, score 46
+  run 2/3: LCP 4935 ms, score 47
+  run 3/3: LCP 4305 ms, score 48
+  => FAIL (median LCP 4717 ms)
+[3/62] leaves-my /leaves
+  run 1/3: LCP 1751 ms, score 60
+  run 2/3: LCP 2899 ms, score 51
+  run 3/3: LCP 2615 ms, score 51
+  => PASS (median LCP 2615 ms)
+[4/62] leaves-team-requests /leaves?tab=requests
+  run 1/3: LCP 2122 ms, score 58
+  run 2/3: LCP 2587 ms, score 55
+  run 3/3: LCP 3168 ms, score 51
+  => PASS (median LCP 2587 ms)
+[5/62] leaves-team-calendar /leaves?tab=calendar
+  run 1/3: LCP 1761 ms, score 58
+  run 2/3: LCP 3337 ms, score 48
+  run 3/3: LCP 3454 ms, score 50
+  => FAIL (median LCP 3337 ms)
+[6/62] leaves-team-quota /leaves?tab=quota
+  run 1/3: LCP 1760 ms, score 65
+  run 2/3: LCP 3221 ms, score 53
+  run 3/3: LCP 2789 ms, score 59
+  => PASS (median LCP 2789 ms)
+[7/62] leaves-company-quotas /leaves?view=company&tab=leave-quotas
+  run 1/3: LCP 1767 ms, score 68
+  run 2/3: LCP 2995 ms, score 55
+  run 3/3: LCP 2836 ms, score 59
+  => PASS (median LCP 2836 ms)
+[8/62] leaves-company-all /leaves?view=company&tab=all-leaves
+  run 1/3: LCP 1825 ms, score 60
+  run 2/3: LCP 3822 ms, score 47
+  run 3/3: LCP 3648 ms, score 47
+  => FAIL (median LCP 3648 ms)
+[9/62] leaves-company-adjustments /leaves?view=company&tab=adjustments
+  run 1/3: LCP 1820 ms, score 62
+  run 2/3: LCP 2991 ms, score 54
+  run 3/3: error: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)
+  => PASS (median LCP 1820 ms)
+[10/62] claims-my /claims?tab=my
+  run 1/3: LCP 1795 ms, score 63
+  run 2/3: LCP 4254 ms, score 46
+  run 3/3: LCP 3200 ms, score 50
+  => FAIL (median LCP 3200 ms)
+[11/62] claims-team /claims?tab=team
+  run 1/3: LCP 2144 ms, score 46
+  run 2/3: LCP 3913 ms, score 41
+  run 3/3: LCP 3739 ms, score 39
+  => FAIL (median LCP 3739 ms)
+[12/62] claims-faqs /claims?tab=faqs
+  run 1/3: LCP 2192 ms, score 55
+  run 2/3: LCP 2542 ms, score 61
+  run 3/3: LCP 2579 ms, score 63
+  => PASS (median LCP 2542 ms)
+[13/62] perf-my-goals /my-performance/goals
+  run 1/3: LCP 3607 ms, score 43
+  run 2/3: LCP 3766 ms, score 54
+  run 3/3: LCP 3632 ms, score 53
+  => FAIL (median LCP 3632 ms)
+[14/62] perf-my-reviews /my-performance/reviews
+  run 1/3: LCP 2082 ms, score 54
+  run 2/3: LCP 3240 ms, score 57
+  run 3/3: LCP 3046 ms, score 60
+  => FAIL (median LCP 3046 ms)
+[15/62] perf-team /lm-dashboard/performance-management
+  run 1/3: LCP 4070 ms, score 38
+  run 2/3: LCP 4211 ms, score 50
+  run 3/3: LCP 1815 ms, score 65
+  => FAIL (median LCP 4070 ms)
+[16/62] mp-cycles /pc/performance-cycles
+  run 1/3: LCP 1805 ms, score 57
+  run 2/3: LCP 2594 ms, score 60
+  run 3/3: LCP 2976 ms, score 57
+  => PASS (median LCP 2594 ms)
+[17/62] mp-crmc-panel /pc/performance-cycles-crmc
+  run 1/3: LCP 2946 ms, score 48
+  run 2/3: LCP 2722 ms, score 62
+  run 3/3: LCP 2676 ms, score 64
+  => PASS (median LCP 2722 ms)
+[18/62] mp-project-reporting /pc/project-reviews
+  run 1/3: LCP 1805 ms, score 60
+  run 2/3: LCP 2348 ms, score 69
+  run 3/3: LCP 3083 ms, score 60
+  => PASS (median LCP 2348 ms)
+[19/62] mp-individual-reporting /employee-ratings
+  run 1/3: LCP 3611 ms, score 47
+  run 2/3: LCP 7015 ms, score 54
+  run 3/3: LCP 3861 ms, score 59
+  => FAIL (median LCP 3861 ms)
+[20/62] dir-employees /employee-directory
+  run 1/3: LCP 4292 ms, score 26
+  run 2/3: LCP 4243 ms, score 34
+  run 3/3: LCP 3563 ms, score 36
+  => FAIL (median LCP 4243 ms)
+[21/62] dir-org-chart /employee-organization-tree
+  run 1/3: LCP 1870 ms, score 56
+  run 2/3: LCP 2259 ms, score 66
+  run 3/3: LCP 2293 ms, score 68
+  => PASS (median LCP 2259 ms)
+[22/62] profile /profile
+  run 1/3: LCP 4074 ms, score 35
+  run 2/3: LCP 3876 ms, score 40
+  run 3/3: LCP 5729 ms, score 36
+  => FAIL (median LCP 4074 ms)
+[23/62] emp-all /employees/all
+  run 1/3: LCP 9326 ms, score 37
+  run 2/3: LCP 10002 ms, score 37
+  run 3/3: LCP 10166 ms, score 42
+  => FAIL (median LCP 10002 ms)
+[24/62] emp-current /crmc/employees/current
+  run 1/3: LCP 9928 ms, score 34
+  run 2/3: LCP 7104 ms, score 39
+  run 3/3: LCP 9405 ms, score 37
+  => FAIL (median LCP 9405 ms)
+[25/62] emp-inactive /crmc/employees/inactive
+  run 1/3: LCP 2479 ms, score 45
+  run 2/3: LCP 3784 ms, score 42
+  run 3/3: LCP 1837 ms, score 59
+  => PASS (median LCP 2479 ms)
+[26/62] emp-billable /crmc/employees/billable
+  run 1/3: LCP 4266 ms, score 32
+  run 2/3: LCP 3644 ms, score 38
+  run 3/3: LCP 2159 ms, score 46
+  => FAIL (median LCP 3644 ms)
+[27/62] emp-non-billable /crmc/employees/non-billable
+  run 1/3: LCP 7461 ms, score 33
+  run 2/3: LCP 9610 ms, score 37
+  run 3/3: LCP 10957 ms, score 37
+  => FAIL (median LCP 9610 ms)
+[28/62] proj-current /crmc/projects/current
+  run 1/3: LCP 4401 ms, score 32
+  run 2/3: LCP 3834 ms, score 34
+  run 3/3: LCP 4516 ms, score 34
+  => FAIL (median LCP 4401 ms)
+[29/62] proj-completed /crmc/projects/completed
+  run 1/3: LCP 2484 ms, score 42
+  run 2/3: LCP 2680 ms, score 40
+  run 3/3: LCP 2071 ms, score 45
+  => PASS (median LCP 2484 ms)
+[30/62] rp-transient /resourcePlanner/transientResource
+  run 1/3: LCP 2142 ms, score 50
+  run 2/3: LCP 3944 ms, score 41
+  run 3/3: LCP 1936 ms, score 55
+  => PASS (median LCP 2142 ms)
+[31/62] rp-deals /deals
+  run 1/3: LCP 8981 ms, score 34
+  run 2/3: LCP 8640 ms, score 34
+  run 3/3: LCP 11213 ms, score 37
+  => FAIL (median LCP 8981 ms)
+[32/62] rp-deficit /resourcePlanner/reports/resource-deficit
+  run 1/3: LCP 9667 ms, score 29
+  run 2/3: LCP 10425 ms, score 29
+  run 3/3: LCP 10505 ms, score 31
+  => FAIL (median LCP 10425 ms)
+[33/62] rp-bench /resourcePlanner/reports/bench-summary
+  run 1/3: LCP 9884 ms, score 17
+  run 2/3: LCP 10830 ms, score 14
+  run 3/3: LCP 10500 ms, score 15
+  => FAIL (median LCP 10500 ms)
+[34/62] rep-utilization /billing
+  run 1/3: LCP 2091 ms, score 50
+  run 2/3: LCP 3771 ms, score 50
+  run 3/3: LCP 2508 ms, score 76
+  => PASS (median LCP 2508 ms)
+[35/62] rep-certificates /employees/certificates
+  run 1/3: LCP 1670 ms, score 83
+  run 2/3: LCP 2431 ms, score 75
+  run 3/3: LCP 2574 ms, score 74
+  => PASS (median LCP 2431 ms)
+[36/62] vsop-market-values /market-values
+  run 1/3: LCP 1609 ms, score 82
+  run 2/3: LCP 1638 ms, score 83
+  run 3/3: LCP 1922 ms, score 81
+  => PASS (median LCP 1638 ms)
+[37/62] vsop-grants /employee-grants
+  run 1/3: LCP 10050 ms, score 61
+  run 2/3: LCP 11035 ms, score 61
+  run 3/3: LCP 7343 ms, score 62
+  => FAIL (median LCP 10050 ms)
+[38/62] vsop-cycles /grant-cycles
+  run 1/3: LCP 1637 ms, score 83
+  run 2/3: LCP 1674 ms, score 83
+  run 3/3: LCP 1627 ms, score 83
+  => PASS (median LCP 1637 ms)
+[39/62] vsop-transactions /vsop-transactions
+  run 1/3: LCP 8921 ms, score 64
+  run 2/3: LCP 9119 ms, score 64
+  run 3/3: LCP 6309 ms, score 65
+  => FAIL (median LCP 8921 ms)
+[40/62] admin-goals /goals
+  run 1/3: LCP 8998 ms, score 63
+  run 2/3: LCP 11613 ms, score 60
+  run 3/3: LCP 10321 ms, score 61
+  => FAIL (median LCP 10321 ms)
+[41/62] admin-predefined-goals /predefined-goals
+  run 1/3: LCP 1598 ms, score 82
+  run 2/3: LCP 1941 ms, score 79
+  run 3/3: LCP 1669 ms, score 83
+  => PASS (median LCP 1669 ms)
+[42/62] admin-goal-categories /goals-categories
+  run 1/3: LCP 1592 ms, score 85
+  run 2/3: LCP 1631 ms, score 87
+  run 3/3: LCP 1669 ms, score 86
+  => PASS (median LCP 1631 ms)
+[43/62] admin-monthly-competencies /monthly-competencies
+  run 1/3: LCP 1605 ms, score 84
+  run 2/3: LCP 1658 ms, score 85
+  run 3/3: LCP 1683 ms, score 86
+  => PASS (median LCP 1658 ms)
+[44/62] admin-biannual-competencies /bi-annual-competencies
+  run 1/3: LCP 8647 ms, score 65
+  run 2/3: LCP 10298 ms, score 66
+  run 3/3: LCP 10049 ms, score 66
+  => FAIL (median LCP 10049 ms)
+[45/62] admin-performance-mgmt /performance-management
+  run 1/3: LCP 1588 ms, score 83
+  run 2/3: LCP 2474 ms, score 76
+  run 3/3: LCP 1942 ms, score 81
+  => PASS (median LCP 1942 ms)
+[46/62] admin-pm-dashboard /pm-admin-dashboard
+  run 1/3: LCP 1686 ms, score 65
+  run 2/3: LCP 3771 ms, score 48
+  run 3/3: LCP 3462 ms, score 52
+  => FAIL (median LCP 3462 ms)
+[47/62] cfg-roles /roles
+  run 1/3: LCP 2955 ms, score 75
+  run 2/3: LCP 2824 ms, score 75
+  run 3/3: LCP 3655 ms, score 73
+  => PASS (median LCP 2955 ms)
+[48/62] cfg-skills /skills
+  run 1/3: LCP 3074 ms, score 74
+  run 2/3: LCP 2778 ms, score 77
+  run 3/3: LCP 3094 ms, score 76
+  => FAIL (median LCP 3074 ms)
+[49/62] cfg-employment-types /employment-types
+  run 1/3: LCP 1649 ms, score 84
+  run 2/3: LCP 2646 ms, score 72
+  run 3/3: LCP 1646 ms, score 86
+  => PASS (median LCP 1649 ms)
+[50/62] cfg-departments /departments
+  run 1/3: LCP 3212 ms, score 66
+  run 2/3: LCP 2870 ms, score 76
+  run 3/3: LCP 2804 ms, score 75
+  => PASS (median LCP 2870 ms)
+[51/62] cfg-currencies /currencies
+  run 1/3: LCP 2919 ms, score 66
+  run 2/3: LCP 3133 ms, score 73
+  run 3/3: LCP 3368 ms, score 74
+  => FAIL (median LCP 3133 ms)
+[52/62] cfg-overhead-costs /overhead-costs
+  run 1/3: LCP 1653 ms, score 77
+  run 2/3: LCP 1671 ms, score 81
+  run 3/3: LCP 2317 ms, score 77
+  => PASS (median LCP 1671 ms)
+[53/62] cfg-companies /companies
+  run 1/3: LCP 1682 ms, score 74
+  run 2/3: LCP 2773 ms, score 75
+  run 3/3: LCP 2088 ms, score 82
+  => PASS (median LCP 2088 ms)
+[54/62] cfg-industries /industries
+  run 1/3: LCP 9491 ms, score 56
+  run 2/3: LCP 3604 ms, score 72
+  run 3/3: LCP 6266 ms, score 67
+  => FAIL (median LCP 6266 ms)
+[55/62] cfg-customers /customers
+  run 1/3: LCP 1674 ms, score 77
+  run 2/3: LCP 1625 ms, score 84
+  run 3/3: LCP 1628 ms, score 84
+  => PASS (median LCP 1628 ms)
+[56/62] cfg-designations /designations
+  run 1/3: LCP 3159 ms, score 67
+  run 2/3: LCP 2934 ms, score 76
+  run 3/3: LCP 3288 ms, score 74
+  => FAIL (median LCP 3159 ms)
+[57/62] cfg-locations /locations
+  run 1/3: LCP 2936 ms, score 65
+  run 2/3: LCP 2819 ms, score 77
+  run 3/3: LCP 2912 ms, score 76
+  => PASS (median LCP 2912 ms)
+[58/62] cfg-competencies /competencies
+  run 1/3: LCP 3145 ms, score 65
+  run 2/3: LCP 2979 ms, score 75
+  run 3/3: LCP 3154 ms, score 75
+  => FAIL (median LCP 3145 ms)
+[59/62] cfg-business-units /business-unit
+  run 1/3: LCP 3216 ms, score 63
+  run 2/3: LCP 2906 ms, score 75
+  run 3/3: LCP 2924 ms, score 76
+  => PASS (median LCP 2924 ms)
+[60/62] cfg-divisions /division
+  run 1/3: LCP 3375 ms, score 57
+  run 2/3: LCP 2869 ms, score 76
+  run 3/3: LCP 3124 ms, score 75
+  => FAIL (median LCP 3124 ms)
+[61/62] cfg-project-roles /project-roles
+  run 1/3: LCP 3424 ms, score 63
+  run 2/3: LCP 3213 ms, score 73
+  run 3/3: LCP 2884 ms, score 77
+  => FAIL (median LCP 3213 ms)
+[62/62] cfg-leave-models /leave-models
+  run 1/3: LCP 8830 ms, score 62
+  run 2/3: LCP 8232 ms, score 67
+  run 3/3: LCP 4062 ms, score 71
+  => FAIL (median LCP 8232 ms)
+
+Done 62/62: {"PASS":30,"FAIL":32}  ->  reports\2026-10-15T07-11-43

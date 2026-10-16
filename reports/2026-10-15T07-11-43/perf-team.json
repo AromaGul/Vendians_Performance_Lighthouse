@@ -1,0 +1,29 @@
+{
+  "id": "perf-team",
+  "module": "Performance",
+  "page": "Team Performance",
+  "path": "/lm-dashboard/performance-management",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    1815,
+    4070,
+    4211
+  ],
+  "score": 38,
+  "fcp": 2332.6735,
+  "lcp": 4069.6495,
+  "tbt": 637,
+  "cls": 0.03257342243272627,
+  "si": 3441.0190308121014,
+  "tti": 5146.799075000001,
+  "bytes": 8774255,
+  "requests": 43,
+  "apiCalls": 30,
+  "slowestApiMs": 8046.6500000059605,
+  "slowestApi": "https://api.dev.vendians.com/performance-management/performance-cycle?isActive=&page=0&size=100000",
+  "finalUrl": "https://dev.vendians.com/lm-dashboard/performance-management",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

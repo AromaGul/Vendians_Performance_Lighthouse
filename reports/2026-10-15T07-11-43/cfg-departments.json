@@ -1,0 +1,29 @@
+{
+  "id": "cfg-departments",
+  "module": "Configuration",
+  "page": "Departments",
+  "path": "/departments",
+  "priority": "Low",
+  "runs": 3,
+  "lcpRuns": [
+    2804,
+    2870,
+    3212
+  ],
+  "score": 76,
+  "fcp": 1588.3714000000002,
+  "lcp": 2870.3898,
+  "tbt": 77.00000000000045,
+  "cls": 0.03266353867510141,
+  "si": 1694.1042314770477,
+  "tti": 3409.9086,
+  "bytes": 8757610,
+  "requests": 33,
+  "apiCalls": 20,
+  "slowestApiMs": 5999.760999977589,
+  "slowestApi": "https://api.dev.vendians.com/claims?statusId=All",
+  "finalUrl": "https://dev.vendians.com/departments",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

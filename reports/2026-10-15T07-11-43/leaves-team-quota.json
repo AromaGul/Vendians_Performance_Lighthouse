@@ -1,0 +1,29 @@
+{
+  "id": "leaves-team-quota",
+  "module": "Leaves",
+  "page": "Team - Quota",
+  "path": "/leaves?tab=quota",
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    1760,
+    2789,
+    3221
+  ],
+  "score": 59,
+  "fcp": 1770.7240000000006,
+  "lcp": 2788.5080000000007,
+  "tbt": 328.00000000000045,
+  "cls": 0.0168223634824738,
+  "si": 2496.355121016601,
+  "tti": 4045.8989170000013,
+  "bytes": 8790366,
+  "requests": 61,
+  "apiCalls": 48,
+  "slowestApiMs": 8944.93900001049,
+  "slowestApi": "https://api.dev.vendians.com/leave-types",
+  "finalUrl": "https://dev.vendians.com/leaves?tab=quota",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

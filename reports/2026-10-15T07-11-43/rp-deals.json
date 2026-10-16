@@ -1,0 +1,29 @@
+{
+  "id": "rp-deals",
+  "module": "Resource Planner",
+  "page": "Deals Summary",
+  "path": "/deals",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    8640,
+    8981,
+    11213
+  ],
+  "score": 34,
+  "fcp": 1960.6043500000007,
+  "lcp": 8981.434220000001,
+  "tbt": 699,
+  "cls": 0.01931682595839535,
+  "si": 3561.4127531493605,
+  "tti": 9285.01475,
+  "bytes": 8843188,
+  "requests": 47,
+  "apiCalls": 34,
+  "slowestApiMs": 8670.576000005007,
+  "slowestApi": "https://api.dev.vendians.com/resourcePlanner/deals?page=0&size=1000000",
+  "finalUrl": "https://dev.vendians.com/deals",
+  "error": null,
+  "redirectedTo": null,
+  "status": "FAIL"
+}

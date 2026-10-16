@@ -1,0 +1,29 @@
+{
+  "id": "rep-certificates",
+  "module": "Reports",
+  "page": "Employee Certificates",
+  "path": "/employees/certificates",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    1670,
+    2431,
+    2574
+  ],
+  "score": 75,
+  "fcp": 1742.4715500000004,
+  "lcp": 2431.1957,
+  "tbt": 64,
+  "cls": 0.02424230233779879,
+  "si": 2519.1155890998148,
+  "tti": 2766.901033000001,
+  "bytes": 8812316,
+  "requests": 41,
+  "apiCalls": 28,
+  "slowestApiMs": 6899.303000003099,
+  "slowestApi": "https://api.dev.vendians.com/departments",
+  "finalUrl": "https://dev.vendians.com/employees/certificates",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mp-crmc-panel",
+  "module": "Monthly Performance",
+  "page": "CRMC Panel",
+  "path": "/pc/performance-cycles-crmc",
+  "priority": "Medium",
+  "runs": 3,
+  "lcpRuns": [
+    2676,
+    2722,
+    2946
+  ],
+  "score": 62,
+  "fcp": 2160.0605000000005,
+  "lcp": 2721.5543000000007,
+  "tbt": 247,
+  "cls": 0.01818959592891749,
+  "si": 2667.426333853088,
+  "tti": 3487.4978580000006,
+  "bytes": 9556075,
+  "requests": 35,
+  "apiCalls": 22,
+  "slowestApiMs": 7678.254000008106,
+  "slowestApi": "https://api.dev.vendians.com/employees?area=",
+  "finalUrl": "https://dev.vendians.com/pc/performance-cycles-crmc",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "login",
+  "module": "Login",
+  "page": "Sign In",
+  "path": "/login",
+  "auth": false,
+  "priority": "High",
+  "runs": 3,
+  "lcpRuns": [
+    1569,
+    1610,
+    1889
+  ],
+  "score": 84,
+  "fcp": 1602.3185999999996,
+  "lcp": 1610.0555999999997,
+  "tbt": 153.5,
+  "cls": 0.001559859378192219,
+  "si": 1602.3185999999996,
+  "tti": 1951.03255,
+  "bytes": 1838507,
+  "requests": 18,
+  "apiCalls": 0,
+  "slowestApiMs": null,
+  "slowestApi": null,
+  "finalUrl": "https://dev.vendians.com/login",
+  "error": null,
+  "redirectedTo": null,
+  "status": "PASS"
+}
